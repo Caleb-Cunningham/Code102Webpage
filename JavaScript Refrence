@@ -1,0 +1,28 @@
+console.log("Hello World");
+console.log("Caleb");
+
+var x;//variable declaration
+x = 20;//variable assignment
+
+console.log(x); //Prints out the value stored in x
+
+var myName = "Caleb Cunningham";
+console.log(myName);
+
+var my_age = 1000;
+
+var userAge = prompt("How old are you?");
+console.log(userAge);
+
+if (userAge >= 21){
+    var userName = prompt("What is your name?");
+    if(userName == "Charlie"){
+    alert("Good luck CHarlie");
+    }
+}
+else if(userAge>= 13){
+   var userName = prompt("What is your name");
+   if(userName == "James"){
+       alert("Hello there James")
+   }
+}
