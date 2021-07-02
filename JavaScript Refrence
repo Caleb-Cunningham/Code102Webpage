@@ -26,3 +26,95 @@ else if(userAge>= 13){
        alert("Hello there James")
    }
 }
+
+Logical operators take in boolean
+
+var sleepy = true;
+var hungry = false;
+
+console.log(!sleepy);
+
+if(sleepy||hungry){
+    alert 
+}
+
+unfinished gotta watch the yt later
+
+
+A function is a collection of javascript statements 
+that performs some task. it can take in values and also 
+return values.
+
+function getUserAge(){
+    var userAge = prompt("what is your age?");
+    document.write("welcome " + userName = "|");
+}
+
+<script>
+    "use strict";
+    
+    alert("Greetings");
+    </script>
+
+
+Age validation
+
+function getUserAge(){
+    var UserAge = prompt("How old are you?")
+    if(UserAge <= 18){
+        writeName();
+    }
+    else if(UserAge >=13){
+        writeName();
+    }
+    else{
+        alert("You need parental permission to acces this site")
+    }
+}
+
+var userName = prompt("What is youe name")
+alert("Welcome " + userName);
+
+console.log(userAge);
+function getUserAge(){
+    var UserAge = prompt("How old are you?")
+    if(UserAge <= 18){
+        writeName();
+    }
+    else if(UserAge >=13){
+        writeName();
+    }
+    else{
+        alert("You need parental permission to acces this site")
+    }
+}
+
+
+if (userAge < 18){
+    alert("Welcome to the site!")
+}
+
+if (userAge >= 18){
+    alert("You need parental permission to use this site.")
+}
+
+let stopTrying = false;
+
+while(!stopTrying){
+    stopTrying == getPassword();
+}
+
+
+let x = prompt("How many stars would you give this article?")
+
+
+
+let x = prompt("How many stars would you give this?")
+
+
+for (let i = 1; i <= x; i++) {
+  var myImage = new Image(100, 200);
+myImage.src = 'Placeholder.jpg';
+document.body.appendChild(myImage);
+}
+
